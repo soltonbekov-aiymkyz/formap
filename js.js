@@ -18,5 +18,5 @@ arr.forEach(function(item ){
 */
 let b = [1,2,3,4,]
 b.forEach(function(elem,){
-    console.log(elem);
+    console.log(elem * 3);
 })
