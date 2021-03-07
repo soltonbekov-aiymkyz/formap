@@ -32,9 +32,7 @@ b.forEach(function(elem,){
 // item znachenie elamenta
 //.puch dobavit elament
 //map sozdaet novyi massive
-
-
-
+/*
 function List2({items}){
     let example = ["Aplle" , "pear","beer"]
     let result = []
@@ -43,12 +41,42 @@ function List2({items}){
     }
     }*/
 
+    ///kluchi
+    // let arr =[1,2,3]
+    // for (let key in arr){
+    //     console.log(key)
+    //    // console.log(arr[key])
+    // }
 
+/////for offfffffffff
+// //item element massiva
+// let arr =[1,12,3,4,]
+// for (let item of arr){
+//     console.log(item*12)
+// }
 
 
 
 //Map
 //perebirat massivy 
+///perebrat massive i bypolnit nad ego elaementami 
+//kakie libo deistviii pri  etom sozdat novyi massiv ne 
+//izmenyaya predydushii
+let b  =[];
+let a = [1,2,3,4,];
+a[4]=12345;
+for (let i=0; i<a.length; i++){
+    b[i] = a[i]*2;
+}
+console.log(b)
+console.log(a)
+
+//map vozvrashat novyi massiv ne  izmenyaet iznachalnoe 
+///MAP
+let c = a.map(function(x){
+    return x*2;
+})
+console.log(c)
 
 
 
